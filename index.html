@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Streak - Guess the Color Game</title>
+    <meta
+      name="description"
+      content="Test your color recognition skills in this fun and addictive color guessing game. How long can you keep your streak alive?"
+    />
+    <meta
+      name="keywords"
+      content="color game, guess the color, color streak, rgb game, color quiz, PWA game"
+    />
+    <meta name="author" content="salswa" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">🎨 Color Streak</h1>
+      <p>Guess the correct color based on the RGB value!</p>
+    </header>
+    <main class="container">
+      <section aria-label="Color code to guess">
+        <div
+          class="color-code"
+          role="text"
+          aria-label="Current RGB code to guess"
+        ></div>
+      </section>
+      <section class="score" aria-label="Current score">
+        Score: <span class="value">0</span>
+      </section>
+      <section class="color-options" aria-label="Color choices"></section>
+    </main>
+    <footer>
+      <div class="content" aria-label="Footer information">
+        <p>Made with ❤️ by salswa</p>
+        <p>&copy; 2025 Color Streak Game. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
