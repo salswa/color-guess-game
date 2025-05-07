@@ -2,6 +2,7 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 20px;
+  overflow: hidden;
 }
 
 p {
@@ -29,7 +30,7 @@ header {
 }
 
 .color-code {
-  width: 190px;
+  width: 200px;
   text-align: center;
   padding: 8px;
   border: 1.3px dashed;
